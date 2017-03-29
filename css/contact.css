@@ -1,0 +1,49 @@
+/*=========fonts===========*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/*+===========universals===========*/
+p {
+  font-size: 16px;
+}
+
+/*===============header============*/
+#header-logo {
+  width: 110px;
+
+}
+
+#logo-style {
+  font-family: 'Satisfy', cursive;
+  color: #ff827b;
+  margin-top: 20px;
+}
+.container {
+
+}
+.row {
+
+}
+.content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*FOOTER*/
+footer {
+  background-color: #231f20;
+  padding-top: 20px;
+}
+ footer a, footer{
+ text-decoration: none;
+ color: #bfc0c1;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.right-border {
+  border-right: 1px solid #333;
+}
+#footer-logo {
+  height: 110px;
+}

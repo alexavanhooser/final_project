@@ -1,0 +1,116 @@
+/*=========fonts===========*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+/*+===========universals===========*/
+.monserrat-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.quicksand-text {
+  font-family: 'Quicksand', sans-serif;
+}
+/*Media Queries*/
+/*// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+/*NAVBAR*/
+.navbar a {
+  color: white;
+}
+
+.navbar-pills {
+  background-color: black;
+  font-size: 14px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: orange;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: black;
+  color: orange;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+  height: 1000px;
+  color: white;
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+#intro {
+background-color: rgba(0,0,0,0.3);
+transform: translateY(50%);
+}
+
+#intro h1 {
+  font-size: 4vw;
+  text-shadow: 1px 1px 5px #0a0a0a0a;
+}
+
+#intro p {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/*thumbnails*/
+.thumb-background{
+  padding-top: 5px;
+  background-color: #eee;
+  border-radius: 10px;
+  margin-left:10px;
+}
+
+.thumb-background img {
+margin: 0px;
+height: 50%;
+width: 90%;
+overflow: auto;
+}
+
+.caption .text-center {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*ABOUT ME SECTION*/
+#about-me {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#about-me i {
+  align-content: center;
+  height: auto;
+  padding-bottom: 10px;
+  width: 90%
+}
+
+.fa-code:before, .fa-github:before, .fa-file-text-o:before {
+  color: black;
+}
+
+/*FOOTER*/
+.well-lg {
+  background-color: #eee;
+}
