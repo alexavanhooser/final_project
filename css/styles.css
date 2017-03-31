@@ -10,21 +10,22 @@
   font-family: 'Quicksand', sans-serif;
 }
 /*Media Queries*/
-/*// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media only screen and (max-width: 810px) {
+  .jumbotron #intro p {
+    font-size: 20px;
+  }
+}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
+@media only screen and (max-width: 560px) {
+  .jumbotron #intro p {
+    font-size: 16px;
+  }
+}
 
 /*NAVBAR*/
 .navbar a {
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-pills {
@@ -44,7 +45,7 @@
 
 /*JUMBOTRON*/
 .jumbotron {
-  height: 1000px;
+  height: 900px;
   color: white;
   background-image: url("../img/header.jpg");
   background-size: cover;
@@ -113,4 +114,8 @@ overflow: auto;
 /*FOOTER*/
 .well-lg {
   background-color: #eee;
+}
+
+#contact .button {
+  align-items: center;
 }
