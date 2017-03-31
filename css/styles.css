@@ -47,7 +47,7 @@
 .jumbotron {
   height: 900px;
   color: white;
-  background-image: url("../img/header3.jpg");
+  background-image: url("../img/header-2.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -116,6 +116,9 @@ overflow: auto;
   background-color: #eee;
 }
 
-#contact .button {
+#contact .i {
   align-items: center;
+}
+.fa-envelope:before {
+  color: black;
 }
